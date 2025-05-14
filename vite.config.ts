@@ -22,4 +22,5 @@ export default defineConfig({
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
+    base: '/Portfolio/', // <-- Add this line to specify the base path for GitHub Pages
 });
