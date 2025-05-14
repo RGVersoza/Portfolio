@@ -1,8 +1,11 @@
 {
+    "homepage": "https://rgversoza.github.io/Portfolio/",
     "private": true,
     "type": "module",
     "scripts": {
+        "predeploy": "npm run build",
         "build": "vite build",
+        "deploy": "gh-pages -d build",
         "build:ssr": "vite build && vite build --ssr",
         "dev": "vite",
         "format": "prettier --write resources/",
